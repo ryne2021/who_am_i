@@ -17,5 +17,5 @@ jobs:
           git config --local user.name "ryne2021"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
-          git commit --allow-empty -m "gogogo!"
+          git commit --allow-empty -m "WHO AM I?"
           git push
